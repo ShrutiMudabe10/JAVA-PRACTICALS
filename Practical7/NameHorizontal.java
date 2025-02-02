@@ -107,7 +107,7 @@ public String displayS(int row,int size){
 
   public static void main(String[]args){
    NameHorizontal shruti = new NameHorizontal();
-     int size = 1;
+     int size = 3;
       if(size>=3){
       for(int row=1; row<2*size; row++){
        System.out.print(shruti.displayS(row,size)+" "+shruti.displayH(row,size)+" "+shruti.displayR(row,size)+" "+shruti.displayU(row,size)+" "+shruti.displayT(row,size)+" "+shruti.displayI(row,size)+" "+"\n");
