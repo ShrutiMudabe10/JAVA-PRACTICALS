@@ -53,12 +53,12 @@ public class Practical9_1 {
         double averageIterationTime = totalIterationTime / (double) size;
         double averageRecursionTime = totalRecursionTime / (double) size;
 
-        // Output results
+        //output
         System.out.println("Random Numbers: ");
         for (int i = 0; i < Elements.length; i++) {
             System.out.print(Elements[i] + " ");
         }
-        System.out.println("\n");
+        System.out.println();
 
         System.out.println("Average time by Iteration: " + averageIterationTime + " ns");
         System.out.println("Average time by Recursion: " + averageRecursionTime + " ns");
